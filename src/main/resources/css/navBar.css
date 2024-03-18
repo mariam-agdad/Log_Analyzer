@@ -1,0 +1,12 @@
+#search{
+-fx-background-radius:90;
+-fx-background-color:#fff;
+}
+
+HBox Button ,MenuButton {
+-fx-background-color:transparent;
+}
+
+HBox{
+-fx-padding:10 0 0 0;
+}

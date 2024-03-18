@@ -1,0 +1,17 @@
+#sideBar{
+
+}
+
+Button{
+-fx-padding:10 0 10 30;
+-fx-background-color:transparent;
+-fx-text-fill:#5A5A5A;
+-fx-alignment:top_left;
+-fx-graphic-text-gap:17;
+-fx-font-size:13px;
+}
+VBox Button:hover{
+-fx-background-color:#D3D3D3;
+-fx-font-weight:bold;
+
+}

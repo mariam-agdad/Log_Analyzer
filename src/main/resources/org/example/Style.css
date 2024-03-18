@@ -1,0 +1,65 @@
+.root{
+/*-fx-font-family:"Helvetica";
+Nunito Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol */
+-fx-color1:#3874ff;
+}
+#parent{
+-fx-min-width:800;
+-fx-min-height:500;
+
+}
+.table-view{
+-fx-background-color:transparent;
+}
+
+/*???*/
+#id{
+-fx-text-fill:#3874ff;
+}
+
+.table-cell{
+-fx-alignment:CENTER;
+}
+
+.table-view .column-header-background{
+        -fx-background-color:  #C5E1EC;
+        -fx-background-radius:14 14 0 0;
+        -fx-background-insets: 0 0 10 0; /*left right top bottom */
+        -fx-font-weight:bold;
+   }
+
+.table-view .column-header, .table-view .filler{
+        -fx-size:50px;
+        -fx-border-width: 0 0 10 0;
+        -fx-background-color:transparent;
+    }
+
+.table-row-cell {
+    -fx-table-cell-background-color:crimson ;
+    }
+
+.chart-series-bar{
+-fx-stroke-width: 2px;
+}
+.default-color0.chart-bar{-fx-bar-fill: #1C3879;}
+.default-color1.chart-bar{-fx-bar-fill: #999FFF;}
+
+.chart-series-line{
+-fx-stroke-width: 2px;
+}
+.default-color0.chart-series-line{-fx-stroke: #1C3879;}
+.default-color1.chart-series-line{-fx-stroke: #999FFF;}
+
+.default-color0.chart-line-symbol{-fx-background-color: #1C3879, #FFFFFF;}
+.default-color1.chart-line-symbol{-fx-background-color: #999FFF, #FFFFFF;}
+
+.chart-series-area-line{
+}
+.default-color0.chart-series-area-line{-fx-stroke: #1C3879;}
+.default-color1.chart-series-area-line{-fx-stroke: #999FFF;}
+
+.default-color0.chart-area-symbol{-fx-background-color: #1C3879, #FFFFFF;}
+.default-color1.chart-area-symbol{-fx-background-color: #999FFF, #FFFFFF;}
+
+.default-color0.chart-series-area-fill{-fx-fill: #1C3879}
+.default-color1.chart-series-area-fill{-fx-fill: #999FFF}
